@@ -1,3 +1,8 @@
+# Doomsday algorithm calculator 
+You can view the project live demo on [https://doomsday-algorithm.vercel.app](https://doomsday-algorithm.vercel.app)
+
+This project uses the  [Doomsday rule](https://en.wikipedia.org/wiki/Doomsday_rule) as a reference 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
