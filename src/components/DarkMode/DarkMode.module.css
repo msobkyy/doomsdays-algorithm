@@ -1,0 +1,31 @@
+.darkmode {
+  height: 55px;
+  width: 55px;
+  padding: 1rem;
+  position: fixed;
+  bottom: 20px;
+  left: 15px;
+  border-radius: 20px;
+  opacity: 0.5;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+.darkmo {
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+.lightmo {
+  background-color: rgb(210, 210, 210);
+  color: rgb(7, 7, 7);
+}
+.con {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.sv {
+  transform: scale(1.3);
+}

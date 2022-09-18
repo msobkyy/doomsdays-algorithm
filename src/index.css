@@ -1,13 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f6fff8;
+  padding-top: 5rem;
+}
+
+body[lang="en"] {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+body[lang="ar"] {
+  font-family: "Tajawal", sans-serif;
+}
+
+.arfont {
+  font-family: "Tajawal", sans-serif !important;
+}
+
+.enfont {
+  font-family: "Merriweather Sans", sans-serif !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.cscard {
+  background: #f8feff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.blured {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.cs,
+.cs li {
+  background-color: #eaf4f4;
+}
+
+.csbtn {
+  background-color: #6b9080 !important;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #6b9080;
+  --bs-btn-border-color: #749e8c;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #799589;
+  --bs-btn-hover-border-color: #289465;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #4e8f73;
+  --bs-btn-active-border-color: #a4c3b2;
+  --bs-btn-active-shadow: inset 0 3px 5pxrgba (0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #a4c3b2;
+  --bs-btn-disabled-border-color: #a4c3b2;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(179, 179, 179);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(179, 179, 179, 0.381);
+}
+
+/* DARK MODE */
+
+[theme="dark"] .cs {
+  background-color: #323f4b !important;
+}
+
+[theme="dark"] .cs li {
+  background-color: #3e4d5b !important;
+}
+
+[theme="dark"] .csbtn {
+  background-color: #6b6c90 !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+[theme="dark"] .form-control {
+  background-color: #1f2933 !important;
+  color: #ffffff !important;
+}
+[theme="dark"] .form-select {
+  background-color: #1f2933 !important;
+  color: #ffffff !important;
+}
+

@@ -1,0 +1,57 @@
+.control {
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
+
+.con {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.control input,
+.control select {
+  display: block;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 1em;
+  height: 40px;
+}
+
+.control input:focus,
+.control textarea:focus {
+  outline: none;
+  border-color: #230052;
+}
+
+.invalid input {
+  border: 1px solid #dc3545;
+  background-color: #ffe6e6;
+}
+
+.invalid input:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.25rem rgb(220 53 69 / 25%);
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.toaster {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  z-index: 99
+}
